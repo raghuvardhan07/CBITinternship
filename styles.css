@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2rem;
+    gap: 2rem;
+    background-color: rgb(14, 97, 69);
+    color: aliceblue;
+    height: 5rem;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    font-weight: bolder;
+}
+#img{
+    margin: 1rem auto;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 127, 127);
+}
+h3{
+    text-align: center;
+}
+#review{
+    margin: 1rem auto;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+}
