@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Form</title>
+    <link rel="stylesheet" href="reg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 onmouseover="changeHover(this)" onmouseleave="back(this)">RWS</h1>
+    <form action="" id="reg_form">
+        <input type="text" name="" id="" placeholder="Name">
+        <input type="email" name="" id="" placeholder="E-mail">
+        <input type="number" name="" id="" placeholder="Number of Servers"> 
+        <div id="gender">
+            <input type="radio" name="gender">
+            <span>Male </span>
+            <input type="radio" name="gender">
+            <span>Female</span>
+        </div>
+        <select name="" id="">
+            <option value="">Free Tier</option>
+            <option value="">Premium</option>
+        </select>
+        <button type="submit">Register</button>
+    </form>
+    <script>
+        function changeHover(h1){
+            h1.innerHTML = "Raghu's Web Services";
+            h1.color = "gray";
+        }
+        function back(h1){
+            h1.innerHTML = "RWS";
+        }
+    </script>
+</body>
+</html>
