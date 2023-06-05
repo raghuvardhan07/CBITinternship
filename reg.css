@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    background: rgb(244, 236, 225);
+}
+::placeholder{
+    font-family:'Poppins', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    color: rgb(52, 50, 50);
+    transition: 1000ms;
+}
+h1:hover{
+    color: rgb(135, 125, 125);
+}
+#reg_form{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    background: linear-gradient(rgb(184, 168, 168), rgb(72, 65, 65));
+    width: 25rem;
+    margin: 3rem auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    border-radius: 10px;
+    
+}
+#reg_form input{
+    width: 65%;
+    text-align: center;
+    border-radius: 5px;
+    height: 2rem;
+}
+button{
+    width: 65%;
+    text-align: center;
+    border-radius: 10px;
+    height: 3rem;
+    font-family:'Poppins', sans-serif;
+    font-size: 1.1rem;
+    background: linear-gradient(lightyellow, rgb(226, 162, 42));
+}
+button:hover{
+    background: linear-gradient(rgb(222, 222, 201),rgb(202, 142, 32));
+    cursor: pointer;
+}
+#reg_form select{
+    width: 65%;
+    text-align: center;
+    border-radius: 5px;
+    height: 2rem;
+    font-family:'Poppins', sans-serif;
+
+}
+
+input[type="radio"]{
+    height: 1rem;
+}
+
+#gender{
+    display: flex;
+    align-items: center;
+}
+
